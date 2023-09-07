@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <div class="caja"></div>
+    <header>
+        <img src="Logo.png" alt="Logo de Alura" class="logo" style="width: 300px; height: auto;">
+    </header>
+    
+    <main>
+        <section>
+                <textArea class="text-area" cols="50" rows="20" placeholder="Ingrese texto aqui"></textArea>
+                <div>Por favor, ingrese solo letras minúsculas.</div>     
+                                      
+        </section>      
+        
+        <section>
+            <div class="botones">                
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                <button class="copiar" onclick = "copiarTexto()">Copiar</button>
+            </div>
+                                    
+        </section>   
+        
+        <section>
+            <textArea class="mensaje" cols="50" rows="20"></textArea>
+            
+        </section> 
+    </main>
+    <script src="script.js"></script>
+
+    
+</body>
+
+<body>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <a>Amed Coronado</a>
+                    <b>Guatemala</b>
+                    <a>Encriptador 9.0</a>                    
+                </div>
+                <div class="social-links">
+                    
+                    <a href="https://www.linkedin.com/in/amed-coronado-968658272/" >LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
